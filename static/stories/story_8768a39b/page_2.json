@@ -1,0 +1,11 @@
+{
+    "page_2": {
+        "type": "story",
+        "text": "One sunny morning, Burhanuddin wandered deep into the jungle. “I wonder what friends I’ll meet today!” he exclaimed with excitement.",
+        "scene": "Burhanuddin standing on a bright path, surrounded by tall trees and singing birds, with a twinkle of joy in his eyes.",
+        "character": {
+            "name": "Burhanuddin",
+            "description": "A curious and adventurous seven-year-old boy with sparkling eyes and a vivid imagination. He loves animals and exploring."
+        }
+    }
+}

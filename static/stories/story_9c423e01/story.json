@@ -1,0 +1,57 @@
+{
+    "page_1": {
+        "type": "title",
+        "title": "\"Rani the Brave Rhino\"",
+        "story_overview": "In a vibrant jungle, a young rhino named Rani dreams of adventure beyond her home. One day, she discovers a hidden path leading to a sparkling river. With her trusty friend, Tiko the monkey, Rani faces challenges and meets new friends, learning the importance of courage, friendship, and believing in oneself.",
+        "character": {
+            "name": "Rani",
+            "description": "A cheerful young rhinoceros with big curious eyes and a playful spirit. She has a beautiful grey hide with a small pink flower on her ear."
+        }
+    },
+    "page_2": {
+        "type": "story",
+        "text": "In a lush green jungle, Rani the rhino woke up with dreams of adventure. \"Today is the day!\" she said, her heart racing with excitement.",
+        "scene": "Rani stands in a sunlit clearing, surrounded by tall trees and colorful flowers, her flower-adorned ear perked up in anticipation.",
+        "character": {
+            "name": "Rani",
+            "description": "A cheerful young rhinoceros with big curious eyes and a playful spirit. She has a beautiful grey hide with a small pink flower on her ear."
+        }
+    },
+    "page_3": {
+        "type": "story",
+        "text": "As Rani wandered, she stumbled upon a hidden path. \"Where could this lead?\" she wondered, and called for her friend Tiko, the cheerful monkey.",
+        "scene": "Rani and Tiko peek around a bend in a vibrant, flowery path, their faces filled with curiosity and excitement.",
+        "character": {
+            "name": "Rani",
+            "description": "A cheerful young rhinoceros with big curious eyes and a playful spirit. She has a beautiful grey hide with a small pink flower on her ear."
+        }
+    },
+    "page_4": {
+        "type": "story",
+        "text": "They followed the path, meeting a wise old tortoise who warned them, \"The river is a test of bravery!\" Rani smiled, “We’ll be brave together!”",
+        "scene": "The tortoise, with a gentle smile, advises Rani and Tiko, who look determined and ready for a challenge.",
+        "character": {
+            "name": "Rani",
+            "description": "A cheerful young rhinoceros with big curious eyes and a playful spirit. She has a beautiful grey hide with a small pink flower on her ear."
+        }
+    },
+    "page_5": {
+        "type": "story",
+        "text": "At the river, the current was strong, but Rani took a deep breath. \"I can do this!\" she exclaimed, splashing through the water with Tiko by her side.",
+        "scene": "Rani wades confidently through the sparkling water, with Tiko swinging excitedly above her.",
+        "character": {
+            "name": "Rani",
+            "description": "A cheerful young rhinoceros with big curious eyes and a playful spirit. She has a beautiful grey hide with a small pink flower on her ear."
+        }
+    },
+    "page_6": {
+        "type": "story",
+        "text": "They crossed the river and danced in the sunshine, making new friends who cheered them on. Rani felt proud, knowing she was brave.",
+        "scene": "Rani and Tiko are surrounded by colorful birds and playful animals, all joyfully celebrating their success.",
+        "character": {
+            "name": "Rani",
+            "description": "A cheerful young rhinoceros with big curious eyes and a playful spirit. She has a beautiful grey hide with a small pink flower on her ear."
+        },
+        "moral": "With courage and friends by your side, you can conquer anything!"
+    }
+}

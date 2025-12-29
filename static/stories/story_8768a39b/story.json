@@ -1,0 +1,48 @@
+{
+    "page_1": {
+        "type": "title",
+        "title": "Burhanuddin and the Brave Rhino",
+        "story_overview": "Young Burhanuddin embarks on a colorful adventure in the jungle, where he meets Ravi the Rhino. Ravi is shy and misunderstood because of his big size. Together, they discover the beauty of friendship, courage, and acceptance as they learn to embrace their unique qualities, helping each other overcome their fears.",
+        "character": {
+            "name": "Burhanuddin",
+            "description": "A curious and adventurous seven-year-old boy with sparkling eyes and a vivid imagination. He loves animals and exploring."
+        }
+    },
+    "page_2": {
+        "type": "story",
+        "text": "One sunny morning, Burhanuddin wandered deep into the jungle. “I wonder what friends I’ll meet today!” he exclaimed with excitement.",
+        "scene": "Burhanuddin standing on a bright path, surrounded by tall trees and singing birds, with a twinkle of joy in his eyes.",
+        "character": {
+            "name": "Burhanuddin",
+            "description": "A curious and adventurous seven-year-old boy with sparkling eyes and a vivid imagination. He loves animals and exploring."
+        }
+    },
+    "page_3": {
+        "type": "story",
+        "text": "Suddenly, he heard a loud rustling and saw Ravi the Rhino hiding behind a bush. “Don’t be scared, I won’t hurt you!” Burhanuddin called out.",
+        "scene": "A large, gentle rhino peeking nervously from behind a leafy bush, with Burhanuddin smiling warmly.",
+        "character": {
+            "name": "Burhanuddin",
+            "description": "A curious and adventurous seven-year-old boy with sparkling eyes and a vivid imagination. He loves animals and exploring."
+        }
+    },
+    "page_4": {
+        "type": "story",
+        "text": "“I’m too big and clumsy,” Ravi sighed. But Burhanuddin smiled, “Let’s play! Your strength is amazing!” Together, they raced and laughed.",
+        "scene": "Burhanuddin and Ravi playing tag in a sunny meadow, with butterflies fluttering around them.",
+        "character": {
+            "name": "Burhanuddin",
+            "description": "A curious and adventurous seven-year-old boy with sparkling eyes and a vivid imagination. He loves animals and exploring."
+        }
+    },
+    "page_5": {
+        "type": "story",
+        "text": "As the sun began to set, Burhanuddin said, “It’s okay to be different. Together, we’re stronger!” Ravi beamed, feeling happy and bold.",
+        "scene": "A golden sunset behind them as they sit side by side, a bond of friendship glowing between them.",
+        "character": {
+            "name": "Burhanuddin",
+            "description": "A curious and adventurous seven-year-old boy with sparkling eyes and a vivid imagination. He loves animals and exploring."
+        },
+        "moral": "Embrace your uniqueness; true friends celebrate each other’s differences!"
+    }
+}

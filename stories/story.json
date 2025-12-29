@@ -1,0 +1,12 @@
+{
+  "page_1": {
+    "title": "The Beginning",
+    "scene": "A magical forest with glowing mushrooms and friendly animals",
+    "text": "Once upon a time in a magical forest...",
+    "character": {
+      "name": "Timmy",
+      "description": "A curious little boy with a red hat"
+    },
+    "moral": "Curiosity leads to wonderful discoveries"
+  }
+}
