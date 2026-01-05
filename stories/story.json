@@ -1,12 +1,66 @@
 {
-  "page_1": {
-    "title": "The Beginning",
-    "scene": "A magical forest with glowing mushrooms and friendly animals",
-    "text": "Once upon a time in a magical forest...",
-    "character": {
-      "name": "Timmy",
-      "description": "A curious little boy with a red hat"
+    "page_1": {
+        "type": "title",
+        "title": "Zoe's Cosmic Adventure",
+        "story_overview": "Zoe, a curious little girl with a sparkling imagination, discovers a magical book that transports her to a colorful planet filled with friendly aliens. They explore vibrant landscapes, dance with glowing stars, and learn about sharing and cooperation. Together, they face a challenge, using their unique abilities to solve it. In the end, Zoe returns home, wiser and ready to share her new knowledge with her friends.",
+        "character": {
+            "name": "Zoe",
+            "description": "Zoe is a lively 6-year-old girl with big, bright eyes and curly hair. She wears a sparkly space helmet and a rainbow tutu, reflecting her imaginative spirit."
+        }
     },
-    "moral": "Curiosity leads to wonderful discoveries"
-  }
+    "page_2": {
+        "type": "story",
+        "text": "One sunny day, Zoe found a shimmering book in her backyard. As she opened it, a swirl of colorful lights lifted her into the sky!",
+        "scene": "Zoe, wide-eyed, stands in a field of flowers, holding the glowing book, as vibrant lights swirl around her, lifting her off the ground.",
+        "character": {
+            "name": "Zoe",
+            "description": "Zoe is a lively 6-year-old girl with big, bright eyes and curly hair. She wears a sparkly space helmet and a rainbow tutu, reflecting her imaginative spirit."
+        }
+    },
+    "page_3": {
+        "type": "story",
+        "text": "Suddenly, Zoe landed on a wobbly, jelly-like planet! “Hello!” chirped a friendly alien with three eyes. “Welcome to Glimmerland!”",
+        "scene": "Zoe stands on the bouncy, jelly-like surface, gazing at a cheerful three-eyed alien wearing a colorful scarf, surrounded by sparkling trees.",
+        "character": {
+            "name": "Zoe",
+            "description": "Zoe is a lively 6-year-old girl with big, bright eyes and curly hair. She wears a sparkly space helmet and a rainbow tutu, reflecting her imaginative spirit."
+        }
+    },
+    "page_4": {
+        "type": "story",
+        "text": "Zoe and her new friends danced with twinkling stars and flew over arc-shaped mountains. “Let’s play a game!” cried Zoe excitedly.",
+        "scene": "Zoe and the alien friends twirl together under a sky filled with glowing stars, their laughter echoing in the colorful landscape.",
+        "character": {
+            "name": "Zoe",
+            "description": "Zoe is a lively 6-year-old girl with big, bright eyes and curly hair. She wears a sparkly space helmet and a rainbow tutu, reflecting her imaginative spirit."
+        }
+    },
+    "page_5": {
+        "type": "story",
+        "text": "Oh no! A big rock blocked their path! Zoe thought hard. “Let’s push together!” she said. Teamwork made the rock roll away!",
+        "scene": "Zoe and the aliens, pushing against a large, colorful rock, work together, their faces showing determination and joy as the rock begins to move.",
+        "character": {
+            "name": "Zoe",
+            "description": "Zoe is a lively 6-year-old girl with big, bright eyes and curly hair. She wears a sparkly space helmet and a rainbow tutu, reflecting her imaginative spirit."
+        }
+    },
+    "page_6": {
+        "type": "story",
+        "text": "As the rock rolled away, everyone cheered! “You taught us about sharing and working together,” the aliens said. Zoe beamed with pride.",
+        "scene": "The aliens and Zoe celebrate by jumping for joy under a sparkling rainbow, with the rock safely out of their way behind them.",
+        "character": {
+            "name": "Zoe",
+            "description": "Zoe is a lively 6-year-old girl with big, bright eyes and curly hair. She wears a sparkly space helmet and a rainbow tutu, reflecting her imaginative spirit."
+        }
+    },
+    "page_7": {
+        "type": "story",
+        "text": "With a wave and a smile, Zoe stepped back into her shimmering book. She couldn't wait to share her adventure with her friends!",
+        "scene": "Zoe, now back in her backyard, closes the glowing book, her face lit up with excitement, while the sun sets behind her.",
+        "character": {
+            "name": "Zoe",
+            "description": "Zoe is a lively 6-year-old girl with big, bright eyes and curly hair. She wears a sparkly space helmet and a rainbow tutu, reflecting her imaginative spirit."
+        },
+        "moral": "Working together makes challenges easier and more fun!"
+    }
 }

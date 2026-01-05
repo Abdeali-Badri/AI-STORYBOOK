@@ -1,15 +1,28 @@
 import os
 import json
 import uuid
+from pathlib import Path
 
-def split_pages(story_data, base_dir="static/stories"):
-    """Split story into separate JSON files with page numbers as main categories"""
+def split_pages(story_data, base_dir=None):
+    """Split story into separate JSON files in the stories folder"""
     
-    # Generate a unique story ID
-    story_id = str(uuid.uuid4())[:8]
-    output_dir = os.path.join(base_dir, f"story_{story_id}")
-    os.makedirs(output_dir, exist_ok=True)
+    # Default to stories folder in project root (not static/stories)
+    if base_dir is None:
+        base_dir = Path(__file__).resolve().parent / "stories"
+    else:
+        base_dir = Path(base_dir)
     
+    # Create stories directory if it doesn't exist
+    base_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Remove leftover story files to avoid mixing pages from previous stories
+    for old in list(base_dir.glob('page_*.json')) + [base_dir / 'story.json', base_dir / 'metadata.json', base_dir / 'story_structured.json']:
+        try:
+            if old.exists() and old.is_file():
+                old.unlink()
+        except Exception:
+            pass
+
     # Main JSON file that contains all pages with page numbers as keys
     main_json = {}
     
@@ -37,50 +50,52 @@ def split_pages(story_data, base_dir="static/stories"):
         main_json[f"page_{i}"] = page_data
     
     # Save all pages in one JSON file
-    with open(os.path.join(output_dir, "story.json"), "w", encoding="utf-8") as f:
+    with open(base_dir / "story.json", "w", encoding="utf-8") as f:
         json.dump(main_json, f, indent=4, ensure_ascii=False)
     
-    # Also create individual page files (optional)
+    # Also create individual page files 
     for page_key, page_data in main_json.items():
         page_num = page_key.split("_")[1]
-        with open(os.path.join(output_dir, f"page_{page_num}.json"), "w", encoding="utf-8") as f:
+        with open(base_dir / f"page_{page_num}.json", "w", encoding="utf-8") as f:
             json.dump({page_key: page_data}, f, indent=4, ensure_ascii=False)
     
     # Create metadata file
     metadata = {
-        "story_id": story_id,
         "title": story_data["title"],
         "total_pages": len(main_json),
         "pages": list(main_json.keys()),
         "main_file": "story.json"
     }
     
-    with open(os.path.join(output_dir, "metadata.json"), "w", encoding="utf-8") as f:
+    with open(base_dir / "metadata.json", "w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=4, ensure_ascii=False)
     
     return {
-        "story_id": story_id,
-        "output_dir": output_dir,
+        "output_dir": str(base_dir),
         "total_pages": len(main_json),
-        "main_json_file": os.path.join(output_dir, "story.json")
+        "main_json_file": str(base_dir / "story.json")
     }
 
 
-def split_pages_alternative(story_data, base_dir="static/stories"):
+def split_pages_alternative(story_data, base_dir=None):
     """Alternative: Single JSON file with nested structure"""
     
-    story_id = str(uuid.uuid4())[:8]
-    output_dir = os.path.join(base_dir, f"story_{story_id}")
-    os.makedirs(output_dir, exist_ok=True)
+    # Default to stories folder in project root (not static/stories)
+    if base_dir is None:
+        base_dir = Path(__file__).resolve().parent / "stories"
+    else:
+        base_dir = Path(base_dir)
+    
+    # Create stories directory if it doesn't exist
+    base_dir.mkdir(parents=True, exist_ok=True)
     
     # Structure with pages as main object
     story_structure = {
         "metadata": {
-            "story_id": story_id,
             "title": story_data["title"],
             "total_pages": len(story_data["pages"]) + 1
         },
-        "pages": {}  # Pages will be added here with page numbers as keys
+        "pages": {} 
     }
     
     # Add page 1
@@ -109,7 +124,7 @@ def split_pages_alternative(story_data, base_dir="static/stories"):
         story_structure["pages"][f"page_{i}"] = page_data
     
     # Save to file
-    with open(os.path.join(output_dir, "story_structured.json"), "w", encoding="utf-8") as f:
+    with open(base_dir / "story_structured.json", "w", encoding="utf-8") as f:
         json.dump(story_structure, f, indent=4, ensure_ascii=False)
     
     return story_structure

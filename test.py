@@ -1,5 +1,5 @@
 from gist_to_story import generate_story_with_moral
-from split_pages import split_pages  # Note: Changed from split_pages to split_page
+from split_pages import split_pages  
 
 
 def main():
@@ -9,7 +9,7 @@ def main():
     # Generate story from gist
     print("\n Generating story...")
     result = generate_story_with_moral(
-        "Story book for seven year old gir Burhanuddin about rhino"
+        "Story book about zebra and tiger playing chess together"
     )
     
     print(f"Story generated: '{result['title']}'")

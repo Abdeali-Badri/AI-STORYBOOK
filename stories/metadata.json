@@ -1,14 +1,14 @@
 {
-    "story_id": "9c423e01",
-    "title": "\"Rani the Brave Rhino\"",
-    "total_pages": 6,
+    "title": "Zoe's Cosmic Adventure",
+    "total_pages": 7,
     "pages": [
         "page_1",
         "page_2",
         "page_3",
         "page_4",
         "page_5",
-        "page_6"
+        "page_6",
+        "page_7"
     ],
     "main_file": "story.json"
 }

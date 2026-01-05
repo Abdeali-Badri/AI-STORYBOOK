@@ -1,0 +1,11 @@
+{
+    "page_1": {
+        "type": "title",
+        "title": "Zoe's Cosmic Adventure",
+        "story_overview": "Zoe, a curious little girl with a sparkling imagination, discovers a magical book that transports her to a colorful planet filled with friendly aliens. They explore vibrant landscapes, dance with glowing stars, and learn about sharing and cooperation. Together, they face a challenge, using their unique abilities to solve it. In the end, Zoe returns home, wiser and ready to share her new knowledge with her friends.",
+        "character": {
+            "name": "Zoe",
+            "description": "Zoe is a lively 6-year-old girl with big, bright eyes and curly hair. She wears a sparkly space helmet and a rainbow tutu, reflecting her imaginative spirit."
+        }
+    }
+}
